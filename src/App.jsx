@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Addstudent from './components/Addstud'
 import Search from './components/Search'
+import Delete from './components/Delete'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
 
     <Addstudent/>
     <Search/>
+    <Delete/>
       
     </>
   )
